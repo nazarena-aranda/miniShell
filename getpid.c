@@ -3,6 +3,6 @@
 
 int main(void)
 {
-	printf("PID de mi padre: %u\n", getppid());
+	printf("Mi PID: %u\n", getpid());
 	return (0);
 }

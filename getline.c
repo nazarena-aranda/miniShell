@@ -5,10 +5,10 @@ int main(void)
 {
 	char *line = NULL;
 	size_t len = 0;
-	ssize_t nread;
+	ssize_t entrada;
 
 	printf("$ ");
-	while ((nread = getline(&line, &len, stdin)) != -1)
+	while ((entrada = getline(&line, &len, stdin)) != -1)
 	{
 		printf("%s", line);
 		printf("$ ");
